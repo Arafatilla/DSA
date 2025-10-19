@@ -13,6 +13,8 @@ class Solution {
 
     ListNode removeNthFromEnd(ListNode head, int n) {
         
+         if (head == null ) return null ;         
+
         // count the length of the list
         ListNode temp = head ; 
         int leng = 0 ;
